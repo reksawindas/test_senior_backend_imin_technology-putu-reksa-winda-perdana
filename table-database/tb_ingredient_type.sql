@@ -5,3 +5,5 @@ CREATE TABLE public.tb_ingredient_type (
 	CONSTRAINT tb_ingredient_type_pk PRIMARY KEY (id)
 );
 CREATE INDEX tb_ingredient_type_id_idx ON public.tb_ingredient_type USING btree (id);
+
+INSERT INTO tb_ingredient_type (type_name, assign_ingredient) VALUES('Seafood', 1);

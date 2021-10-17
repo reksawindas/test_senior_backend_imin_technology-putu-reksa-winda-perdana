@@ -7,3 +7,5 @@ CREATE TABLE public.tb_ingredient (
 	CONSTRAINT tb_ingredient_pk PRIMARY KEY (id)
 );
 CREATE INDEX tb_ingredient_id_idx ON public.tb_ingredient USING btree (id);
+
+INSERT INTO tb_ingredient (ingredient_name, ingredient_state, measurement_unit, ingredient_type) VALUES('Potato', 1, 2, 1);

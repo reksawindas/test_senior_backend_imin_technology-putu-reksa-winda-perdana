@@ -5,3 +5,5 @@ CREATE TABLE public.tb_ingredient_state (
 	CONSTRAINT tb_ingredient_state_pk PRIMARY KEY (id)
 );
 CREATE INDEX tb_ingredient_state_id_idx ON public.tb_ingredient_state USING btree (id);
+
+INSERT INTO tb_ingredient_state (state_name, assign_ingredient) VALUES('Half-processed', 1);

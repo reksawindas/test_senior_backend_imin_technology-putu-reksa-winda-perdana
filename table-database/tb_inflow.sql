@@ -9,3 +9,8 @@ CREATE TABLE public.tb_inflow (
 	CONSTRAINT tb_inflow_pk PRIMARY KEY (id)
 );
 CREATE INDEX tb_inflow_id_idx ON public.tb_inflow USING btree (id);
+
+
+INSERT INTO public.tb_inflow
+(id_ingredient, id_reason, price, quantity, additional_details, created_date)
+VALUES(1, 2, 1200, 2, 'Testing Additional', '2021-04-08');

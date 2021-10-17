@@ -6,3 +6,5 @@ CREATE TABLE public.tb_measurements (
 	CONSTRAINT tb_measurements_pk PRIMARY KEY (id)
 );
 CREATE INDEX tb_measurements_id_idx ON public.tb_measurements USING btree (id);
+
+INSERT INTO tb_measurements (unit_name, abbreviation, precion) VALUES('Cenitmeter', '(cm)', 1);
