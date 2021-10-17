@@ -6,4 +6,5 @@
 # Creating an enviroment variable with ".env"
 DATABASE_URL=postgres://{db_username}:{db_password}@{host}:{port}/{db_name}
 
-# npm install
+ - npm install
+ - node server.js
